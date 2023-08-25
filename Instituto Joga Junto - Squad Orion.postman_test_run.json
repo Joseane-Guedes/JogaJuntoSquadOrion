@@ -1,0 +1,158 @@
+{
+	"id": "d9885c84-b63e-4130-9c7e-3a4b5c71b5a4",
+	"name": "Instituto Joga Junto - Squad Orion",
+	"timestamp": "2023-08-25T18:32:09.519Z",
+	"collection_id": "27885476-0e359b08-ae51-43b5-8c59-c6161f009c44",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 6,
+	"delay": "500",
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-08-25T18:32:00.885Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "2c0bcbca-9577-4472-a9cf-3a2f21a85c08",
+			"name": "Adicionar livros",
+			"url": "http://apilivro.jogajuntoinstituto.org:8000/books/",
+			"time": 1376,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1376
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "93c93696-8870-4a74-86a6-b8a10ebf0034",
+			"name": "Listar livros",
+			"url": "http://apilivro.jogajuntoinstituto.org:8000/books/",
+			"time": 2349,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				2349
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "14dacf18-5711-4035-aca8-6a763af73879",
+			"name": "Deletar livros",
+			"url": "http://apilivro.jogajuntoinstituto.org:8000/books/22/",
+			"time": 1164,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1164
+			],
+			"allTests": [
+				{
+					"Status code is 404": true
+				}
+			]
+		},
+		{
+			"id": "bbeee30f-3f16-46a1-887e-6824eb35f4d4",
+			"name": "Altera livros",
+			"url": "http://apilivro.jogajuntoinstituto.org:8000/books/14/",
+			"time": 1507,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1507
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 6396,
+	"collection": {
+		"requests": [
+			{
+				"id": "2c0bcbca-9577-4472-a9cf-3a2f21a85c08",
+				"method": "POST"
+			},
+			{
+				"id": "93c93696-8870-4a74-86a6-b8a10ebf0034",
+				"method": "GET"
+			},
+			{
+				"id": "14dacf18-5711-4035-aca8-6a763af73879",
+				"method": "DELETE"
+			},
+			{
+				"id": "bbeee30f-3f16-46a1-887e-6824eb35f4d4",
+				"method": "PATCH"
+			}
+		]
+	}
+}
