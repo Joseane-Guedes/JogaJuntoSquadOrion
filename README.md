@@ -15,8 +15,6 @@
 
 # ⚽️ Método Joga Junto
 
-<p align="justify">Joga Junto!</p>
-
 <p align="justify">
 Desenvolvemos uma sistemática educacional que consiste em três etapas evolutivas de aprendizagem unindo o técnico e comportamental. Engajamos os alunos para a aprendizagem por meio de trocas sociais, desenvolvemos competências comportamentais, estimulamos o autoconhecimento e facilitamos o reconhecimento dos valores pessoais e do contexto de vida.</p>
 
@@ -25,7 +23,7 @@ Desenvolvemos uma sistemática educacional que consiste em três etapas evolutiv
 - [Postman](https://www.postman.com/)
 - [API - Joga Junto](http://apilivro.jogajuntoinstituto.org:8000/swagger/)
 
-# 💎 Equipe - Squad5 - Orion
+# 💎 Squad5 - Orion
 
 - Renato Fabricio
 - Katie Cristiane Guedes Lima
@@ -43,5 +41,3 @@ Desenvolvemos uma sistemática educacional que consiste em três etapas evolutiv
 Released in 2021 📚 License
 
 This project is under the [MIT license](./LICENSE).
-
-#
